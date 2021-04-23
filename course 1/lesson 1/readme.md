@@ -1,7 +1,7 @@
 # Beginner to Intermediate Smart Contracts
 
 ## Lesson 1 - Making the Zombie Factory
-- `zombiefactory.sol` - 製作zombie
+- `zombiefactory.sol` - 建立殭屍工廠，並生產殭屍軍隊。每隻殭屍的DNA都是隨機生成的，並且擁有自己獨特的外觀。
 
 ## Learn
 

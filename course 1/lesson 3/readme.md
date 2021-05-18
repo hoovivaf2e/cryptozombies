@@ -258,7 +258,9 @@ function getArray() external pure returns(uint[]) {
 
 為了實現 getZombiesByOwner 函式，一種“無腦式”的解決方案是在 ZombieFactory 中存入”主人“和”殭屍軍團“的mapping。
 
-`mapping (address => uint[]) public ownerToZombies`
+```js
+mapping (address => uint[]) public ownerToZombies
+```
 
 然後我們每次建立新殭屍時，執行`ownerToZombies[owner].push（zombieId）`將其添加到主人的殭屍陣列中。而`getZombiesByOwner`函式也非常简單：
 

@@ -69,7 +69,7 @@ ABI 意為應用二進位接口（Application Binary Interface）。 基本上�
 ```js
 var myContract = new web3js.eth.Contract(myABI, myContractAddress);
 ```
-- - 
+- - -
 
 ### 調用和合約函數 call & send
 Web3.js 有两個方法來調用我們合約的函數: call and send.
@@ -96,7 +96,7 @@ myContract.methods.myMethod(123).call()
 myContract.methods.myMethod(123).send({ from: userAccount, value: web3js.utils.toWei("0.001","ether") })
 ```
 
-- - 
+- - -
 
 ### 調用 Payable 函數
 

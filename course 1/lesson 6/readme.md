@@ -114,7 +114,7 @@ web3js.utils.toWei("1", "ether");
 cryptoZombies.methods.levelUp(zombieId).send({ from: userAccount, value: web3js.utils.toWei("0.001","ether") })
 ```
 
-- - 
+- - -
 
 ### Subscribing to Events
 
